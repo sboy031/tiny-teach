@@ -54,7 +54,7 @@ To create a lesson, you will need audio, images and text.  We will use a standar
 	</slide>
 </lesson>
 ```
-Slides require <i>in</i> and <i>out</i> tags.  <i>Notes</i>, <i>question</i> and <i>image</i> tag are optional within the <i>slide</i> tag. For <i>notes</i> tags with HTML data, use the <i><![CDATA[  ]]></i> wrapper.
+Slides require <i>in</i> and <i>out</i> tags.  <i>Notes</i>, <i>question</i> and <i>image</i> tag are optional within the <i>slide</i> tag. For <i>notes</i> tags with HTML data, use the <i><![CDATA[  ]]></i> wrapper. Check out the example lesson included with Tiny Teach (under the <i>lessons</i> directory) for more details.
 
 ### Audio file
 Audio files can be in MP3 and OGG format.  OGG format does not play well on iOS devices.  If you expect iOS users to view your lessons, please use MP3.
