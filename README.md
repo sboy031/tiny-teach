@@ -27,8 +27,6 @@ $tinyteach_title = "Welcome to Tiny Teach";     //Site title
 
 To create a lesson, you will need audio, images and text.  We will use a standardized XML file (outlined below) to make this data readable to Tiny Teach.  Each lesson needs to have an XML file created in the <i>lesson</i> directory.  An example of a valid XML file is below (<a href="https://raw.githubusercontent.com/tinyteach/tiny-teach/master/assets/lesson1.xml">lesson1.xml</a>).  Each lesson needs a <i>title</i> and an <i>audio</i> attribute.  Nested within the <i>lesson</i> tag are <i>slide</i> tags, if slides are present.
 
-Slides require <i>in</i> and <i>out</i> tags.  <i>Notes</i>, <i>question</i> and <i>image</i> tag are optional within the <i>slide</i> tag. For <i>notes</i> tags with HTML data, use the <![CDATA[  ]]>
-
 ```xml
 <lesson>
 	<title>Welcome to Tiny Teach</title>  <!-- Title of lesson : REQUIRED -->
@@ -56,3 +54,7 @@ Slides require <i>in</i> and <i>out</i> tags.  <i>Notes</i>, <i>question</i> and
 	</slide>
 </lesson>
 ```
+Slides require <i>in</i> and <i>out</i> tags.  <i>Notes</i>, <i>question</i> and <i>image</i> tag are optional within the <i>slide</i> tag. For <i>notes</i> tags with HTML data, use the <i><![CDATA[  ]]></i> wrapper.
+
+### Audio file
+Audio files can be in MP3 and OGG format.  OGG format does not play well on iOS devices.  If you expect iOS users to view your lessons, please use MP3.
