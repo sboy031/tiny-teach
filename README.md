@@ -22,3 +22,8 @@ $tinyteach_circular_slides = true;              //True to enable circular border
 $tinyteach_logo = "./assets/ttlogo.png";        //Location of Index page Logo
 $tinyteach_title = "Welcome to Tiny Teach";     //Site title
 ```
+
+## Lesson Creation
+
+To create a lesson, you will need audio, images and text.  We will use a standardized XML file (outlined below) to make this data readable to Tiny Teach.
+
