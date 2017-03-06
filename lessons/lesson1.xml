@@ -1,0 +1,27 @@
+<lesson>
+	<title>Welcome to Tiny Teach</title>
+	<audio>./lesson1/lesson1.mp3</audio>
+	<slide>
+		<in>0.0</in>
+		<out>30.0</out>
+		<notes><![CDATA[<b>Welcome to Tiny Teach</b><br/><br/>
+
+		Tiny Teach is a NOOC (<i>Normal Open Online Course</i>).  Similar to a MOOC (<a href="https://en.wikipedia.org/wiki/Massive_open_online_course" target="_blank">Massive Open Online Course</a>), Tiny Teach is a simplified bare-bones web application that adds annotations and slides to audio recordings listed in a dynamic directory.  This application allows for the rapid development and deployment of medium sized (1-1000 seat) classroom lessons.]]></notes>
+		<image>./lesson1/image1.jpg</image>
+	</slide>
+	<slide>
+		<in>30.0</in>
+		<out>66.0</out>
+		<notes><![CDATA[<b>The goal of Tiny Teach</b> is to take audio recordings and add timed multimedia features via HTML in a structured and coherent fashion.  Tiny Teach uses the Popcorn.js library to sync slide events to audio.  XML is used to structure the slides for publication on the platform.<br/><br/>
+
+		Lessons are read directly from the lesson directory, creating a dynamic list of available courses. <u>Tiny Teach is also responsive</u>, making it ideal for students who only have access to mobile technologies.]]> </notes>
+		<question>What type of rich, engaging lessons would you create?</question>
+		<image>./lesson1/image2.jpg</image>
+	</slide>
+	<slide>
+		<in>66.0</in>
+		<out>90.0</out>
+		<notes>It is hoped that in this manner, any educator can create short high-quality lessons (10-15 minutes) within 60-90 minutes.  These NOOCs become tiny reinforcements of classroom content or a powerful series of additional curriculum enhancements.  Enjoy Tiny Teach.  Use it to engage, upgrade and empower your classroom! </notes>
+		<image>./lesson1/image3.jpg</image>
+	</slide>
+</lesson>
